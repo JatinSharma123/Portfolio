@@ -1,0 +1,51 @@
+.projectCard {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.8);
+  overflow: hidden;
+}
+.projectCard .imagewrapper {
+  width: 100%;
+  height: 200px;
+  background-color: #eef3f8;
+  border-bottom: 1.5px solid rgba(128, 128, 128, 0.8);
+}
+.projectCard .imagewrapper img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projectCard .content {
+  padding: 15px;
+}
+.projectCard .content h2 {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+}
+.projectCard .content p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.6rem;
+}
+.projectCard .buttons {
+  margin: 20px 0 10px 0;
+}
+.projectCard .buttons .github,
+.projectCard .buttons .hosted {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #000;
+  border-bottom: 2px solid #b8b8b8;
+}
+.projectCard .buttons .hosted {
+  margin-left: 2rem;
+}/*# sourceMappingURL=projectCard.module.css.map */

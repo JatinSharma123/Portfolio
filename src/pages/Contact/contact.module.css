@@ -1,0 +1,93 @@
+.contact {
+  min-height: 100vh;
+  padding: calc(4.8rem + 2rem) 2rem 2rem 2rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .wrapper {
+  max-width: 1080px;
+  margin: 20px auto;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.8);
+}
+.contact .wrapper .form {
+  display: flex;
+  flex-direction: column;
+}
+.contact .wrapper .form .contactOpen {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: rgba(0, 0, 0, 0.6901960784);
+}
+.contact .wrapper .form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact .wrapper .form form input,
+.contact .wrapper .form form textarea {
+  border: none;
+  outline: none;
+  margin: 0.7rem 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(128, 128, 128, 0.3);
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  background-color: #eff3f5;
+  font-family: "Josefin Sans";
+  font-weight: 500;
+  color: #2c394b;
+}
+.contact .wrapper .form form textarea {
+  resize: none;
+  padding: 1rem 0.8rem;
+}
+.contact .wrapper .form form button {
+  margin-top: 1rem;
+  padding: 0.8rem 0.5rem 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #3c83f3;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.4);
+}
+.contact .wrapper .lottie {
+  height: 380px;
+  width: 380px;
+}
+
+@media (max-width: 900px) {
+  .contact .wrapper {
+    flex-direction: column-reverse;
+    width: 85vw;
+    padding: 2rem;
+  }
+  .contact .wrapper .form {
+    width: 80%;
+  }
+  .contact .wrapper .lottie {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (max-width: 500px) {
+  .contact .wrapper {
+    padding: 1.2rem;
+  }
+  .contact .wrapper .form {
+    width: 100%;
+  }
+}/*# sourceMappingURL=contact.module.css.map */

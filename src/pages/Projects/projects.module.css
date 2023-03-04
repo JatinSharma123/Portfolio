@@ -1,0 +1,45 @@
+.projects {
+  min-height: 100vh;
+  padding: calc(4.8rem + 1rem) 0 2rem 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.projects .wrapper {
+  max-width: 1080px;
+  margin: 20px auto;
+  padding: 0 20px;
+  position: relative;
+}
+.projects .wrapper .projectsOpen {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  background: #3c83f3;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 10px;
+  font-family: "Ubuntu Mono", monospace;
+  letter-spacing: 0.5px;
+}
+.projects .wrapper .projectsClose {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  color: #ffffff;
+  background: #3c83f3;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 10px;
+  font-family: "Ubuntu Mono", monospace;
+  letter-spacing: 0.5px;
+}
+.projects .wrapper .projects_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3.6rem;
+}/*# sourceMappingURL=projects.module.css.map */

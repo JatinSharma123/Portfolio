@@ -1,0 +1,70 @@
+@keyframes slide-left {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.education {
+  position: absolute;
+  left: 0;
+  min-height: calc(100vh - 4.8rem);
+  width: 100%;
+  margin-top: 4.8rem;
+  padding: 1rem 0;
+  background-color: #ffffff;
+}
+.education .wrapper {
+  max-width: 1080px;
+  margin: 20px auto;
+  padding: 0 20px;
+  position: relative;
+}
+.education .wrapper .eduOpen {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  background: #3c83f3;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 10px;
+  font-family: "Ubuntu Mono", monospace;
+  letter-spacing: 0.5px;
+}
+.education .wrapper .eduClose {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  color: #ffffff;
+  background: #3c83f3;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 10px;
+  font-family: "Ubuntu Mono", monospace;
+  letter-spacing: 0.5px;
+}
+.education .wrapper .center_line {
+  position: absolute;
+  height: 75%;
+  width: 4px;
+  background: #3c83f3;
+  left: 50%;
+  top: 60px;
+  border-radius: 2px;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 790px) {
+  .wrapper .center_line {
+    left: 40px !important;
+  }
+}
+@media (max-width: 440px) {
+  .wrapper .center_line {
+    display: none;
+  }
+}/*# sourceMappingURL=experience.module.css.map */
